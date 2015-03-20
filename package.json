@@ -1,0 +1,54 @@
+{
+  "name": "mongoose-hook-custom-id",
+  "version": "0.1.1",
+  "description": "Mongoose plugin to use String _id and by default will generate 16-char base64 string representation of ObjectId.",
+  "license": "MIT",
+  "homepage": "https://github.com/tarquas/mongoose-hook-custom-id",
+  "main": "./lib/v0/index.js",
+
+  "dependencies": {
+    "mongoose-hook": "tarquas/mongoose-hook#72531d8ebc"
+  },
+
+  "files": [
+    "./lib/v0/*"
+  ],
+
+  "bugs": {
+    "url": "https://github.com/tarquas/mongoose-hook-custom-id/issues",
+    "email": "tarquas@gmail.com"
+  },
+  
+  "directories": {
+    "lib": "./lib"
+  },
+  
+  "keywords": [
+    "mongoose",
+    "plugin",
+    "hook",
+    "mongoose-hook",
+    "_id",
+    "string",
+    "custom",
+    "base64",
+    "shortid",
+    "mongo"
+  ],
+  
+  "author": {
+    "name": "Taras Mykhailovych",
+    "email": "tarquas@gmail.com",
+    "url": "http://194.44.203.87/tarquas/"
+  },
+  
+  "contributors": [
+    {"name": "Staff.com", "url": "https://staff.com/"},
+    {"name": "Time Doctor", "url": "https://timedoctor.com/"}
+  ],
+  
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/tarquas/mongoose-hook-custom-id.git"
+  }
+}
