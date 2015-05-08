@@ -1,28 +1,20 @@
 {
   "name": "mongoose-hook-custom-id",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Mongoose plugin to use String _id and by default will generate 16-char base64 string representation of ObjectId.",
   "license": "MIT",
   "homepage": "https://github.com/tarquas/mongoose-hook-custom-id",
   "main": "./lib/v0/index.js",
 
   "dependencies": {
-    "mongoose-hook": "tarquas/mongoose-hook#40df5bac52"
+    "mongoose-hook": "0.1.5"
   },
-
-  "files": [
-    "./lib/v0/*"
-  ],
 
   "bugs": {
     "url": "https://github.com/tarquas/mongoose-hook-custom-id/issues",
     "email": "tarquas@gmail.com"
   },
-  
-  "directories": {
-    "lib": "./lib"
-  },
-  
+
   "keywords": [
     "mongoose",
     "plugin",

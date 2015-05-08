@@ -9,7 +9,7 @@ git clone git@github.com:tarquas/mongoose-hook-custom-id.git mongoose-hook-custo
 # Package
 ```js
 {
-  "mongoose-hook-custom-id": "tarquas/mongoose-hook-custom-id#4ffb7d15d3"
+  "mongoose-hook-custom-id": "0.1.3"
 }
 ```
 
