@@ -1,15 +1,15 @@
-# mongoose-hook-custom-id
+# mongoose-pre-hook-custom-id
 Mongoose plugin to use String _id and by default will generate 16-char base64 string representation of ObjectId.
 
 # Installation
 ```shell
-git clone git@github.com:tarquas/mongoose-hook-custom-id.git mongoose-hook-custom-id
+git clone git@github.com:hmagdy/mongoose-pre-hook-custom-id.git mongoose-pre-hook-custom-id
 ```
 
 # Package
 ```js
 {
-  "mongoose-hook-custom-id": "0.1.4"
+  "mongoose-pre-hook-custom-id": "1.1.3"
 }
 ```
 
@@ -20,7 +20,7 @@ Example:
 ```js
 var
   mongoose = require('mongoose'),
-  customId = require('mongoose-hook-custom-id'),
+  customId = require('mongoose-pre-hook-custom-id'),
   PersonSchema;
 
 PersonSchema = {
